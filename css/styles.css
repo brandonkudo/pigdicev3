@@ -1,0 +1,33 @@
+/*.row {
+  display: none;
+}*/
+body h1 {
+  text-align: center;
+}
+button {
+  text-align: center;
+}
+#roll {
+  margin-top:50px;
+  width: 20%;
+  height:34px;
+  margin-left: 30%;
+  margin-right: 30%
+
+}
+
+#hold {
+  margin-top: 15px;
+  width: 20%;
+  height:34px;
+  margin-left: 30%;
+  margin-right: 30%
+}
+
+.center {
+  text-align: center;
+}
+
+.well {
+  margin-top: 15px;
+}

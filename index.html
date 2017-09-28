@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Pig Dice</h1>
+      </div>
+
+      <div class="row">
+        <div class="center">
+          <button class="btn btn-success" id="roll">Roll</button>
+          <!-- <input TYPE="button" value="hold" id="hold" onClick='changestate("Hold")'> -->
+          <button class="btn btn-warning" id="hold" value="0">Hold</button>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6" id="playerOne">
+          <div class="well">
+            <div id="playerOneScore">
+              <h4>Player One Round Score: <span id=roundScore1></span></h4>
+            </div>
+              <h4>Player One Total Score: <span id=totalScore1></span></h4>
+            <div class="outputOne">
+              <ul id="scoresOne"></ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-6" id="playerTwo">
+            <div class="well">
+            <div id="playerTwoScore">
+              <h4>Player Two Round Score: <span id=roundScore2></span></h4>
+            </div>
+              <h4>Player Two Total Score: <span id=totalScore2></span></h4>
+            <div class="outputTwo">
+              <ul id="scoresTwo"></ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
